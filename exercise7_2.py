@@ -9,8 +9,6 @@ class MRMostUsedWord(MRJob):
     def mapper_get_nodes(self, _, line):
         # yield each nodes in the line
         for node in GRAPH_RE.findall((line)):
-#            print("(node{},1)".format(node))
-            print('%s\t%s' % (node, 1))
             yield (node, 1)
 
     #def combiner_count_nodes(self, node, counts):
