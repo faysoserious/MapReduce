@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 25 17:58:33 2017
 
-@author: fxie_
-"""
 
 from mrjob.job import MRJob
 
