@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 29 21:09:12 2017
 
-@author: fxie_
-"""
 from mrjob.job import MRJob
 from mrjob.step import MRStep
 import re
